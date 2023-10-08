@@ -179,7 +179,7 @@
     (property "Reference" "JP" (at 0 3.175 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Jumper" (at 0 0 0)
+    (property "Value" "JumperSplit" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "" (at 0 0 0)
