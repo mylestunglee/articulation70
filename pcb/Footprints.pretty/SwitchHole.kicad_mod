@@ -1,0 +1,13 @@
+(footprint "SwitchHole" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 0 unlocked) (layer "Dwgs.User") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp e0940f01-62a4-4852-b5ca-1d50fdf1c473)
+  )
+  (fp_text value "SwitchHole" (at 0 2 unlocked) (layer "Dwgs.User") hide
+      (effects (font (size 1 1) (thickness 0.125)))
+    (tstamp 0cadc0f9-d08b-4ee0-898c-184c6eb7bfe2)
+  )
+  (fp_rect (start -7 -7) (end 7 7)
+    (stroke (width 0.12) (type default)) (fill none) (layer "Edge.Cuts") (tstamp be72dac8-d404-4680-9a82-aca80f42e469))
+)

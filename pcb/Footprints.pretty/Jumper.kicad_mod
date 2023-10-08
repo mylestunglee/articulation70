@@ -1,0 +1,14 @@
+(footprint "Jumper" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -1.524 unlocked) (layer "Dwgs.User") hide
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
+    (tstamp 6ee665ab-faa8-4153-b652-9980bae63fff)
+  )
+  (fp_text value "JumperSplit" (at 0 1.524 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp d20375e0-7262-4148-8ab5-bbe597933348)
+  )
+  (pad "1" thru_hole rect (at -0.9 0) (size 1.6 1.6) (drill 0.4) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 603cc7f9-7dfa-40a8-859e-cdaa2d784dfc))
+  (pad "2" thru_hole rect (at 0.9 0) (size 1.6 1.6) (drill 0.4) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp ad87fc86-becd-47d7-a31b-9b27ed4ac5ed))
+)
