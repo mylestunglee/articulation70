@@ -10,8 +10,11 @@ code_lookup = {
     70: 'U1'
 }
 
+for i in range(5):
+    code_lookup[200 + i] = 'R{}'.format(i + 1)
+
 for i in range(3):
-    code_lookup[300 + i] = 'LED{}'.format(i)
+    code_lookup[300 + i] = 'LED{}'.format(i + 1)
 
 for y in range(4):
     for x in range(9):
@@ -25,14 +28,14 @@ with open('geometry.txt', 'w') as file:
     # find origin
     for geometry in App.ActiveDocument.getObjectsByLabel("Components")[0].Geometry:
         if geometry.TypeId == 'Part::GeomCircle':
-            code = int(200 * geometry.Radius)
+            code = int(round(200 * geometry.Radius))
             if code == origin_code:
                 origin = geometry.Center
 
     # export components
     for geometry in App.ActiveDocument.getObjectsByLabel("Components")[0].Geometry:
         if geometry.TypeId == 'Part::GeomCircle':
-            code = int(200 * geometry.Radius)
+            code = int(round(200 * geometry.Radius))
             if code == origin_code:
                 continue
             reference = code_lookup[code]
