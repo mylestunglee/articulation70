@@ -43,7 +43,7 @@
   (pad "28" thru_hole circle (at 2.54 15.24 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp 53ce973a-ba6b-4773-ba82-7de272d0ff16))
   (pad "29" thru_hole circle (at 5.08 15.24 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp e1c17be7-ae25-4dd9-8ac7-2cebb28f5af6))
   (model "${KIPRJMOD}/3dmodels/sparkfun_pro_micro.x3d"
-    (offset (xyz 7.5 -15.2 0))
+    (offset (xyz 7.5 -15.24 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
