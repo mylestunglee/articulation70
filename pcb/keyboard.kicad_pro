@@ -172,7 +172,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.25
       ],
       "via_dimensions": [
         {
@@ -433,7 +434,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "ROW3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
