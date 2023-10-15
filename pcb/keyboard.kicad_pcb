@@ -156,7 +156,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 48cbf478-cd6c-4c46-8dbe-c6e2a24c5c0b)
     )
-    (fp_text value "18" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "28" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp bcdc129e-d186-42c5-98c4-21531a08814d)
     )
@@ -345,7 +345,7 @@
       (stroke (width 0.15) (type default)) (layer "B.SilkS") (tstamp 3403a4ce-9eee-43cc-b74f-25efc8fa3e30))
     (fp_arc (start 0 1.424998) (mid -0.545324 1.316526) (end -1.007627 1.007625)
       (stroke (width 0.15) (type default)) (layer "B.SilkS") (tstamp baf1f972-742a-4357-9d17-17694eda4ae2))
-    (fp_arc (start 1.007628 1.007626) (mid 0.545324 1.316528) (end 0 1.424998)
+    (fp_arc (start 1.007628 1.007626) (mid 0.545325 1.316528) (end 0 1.424998)
       (stroke (width 0.15) (type default)) (layer "B.SilkS") (tstamp bd8de214-140c-4f80-a5a1-b15adca924a9))
     (fp_arc (start -1.007628 -1.007628) (mid -0.545324 -1.316529) (end 0 -1.425)
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 1b3cf160-4474-4f36-a475-6bbd6b4664b9))
@@ -353,7 +353,7 @@
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 74f4bcfa-b899-46c2-a17d-34d8108e3ee1))
     (fp_arc (start 0 1.424998) (mid -0.545324 1.316526) (end -1.007627 1.007625)
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp c7eedd35-bbbb-48d0-a032-386169518e1a))
-    (fp_arc (start 1.007628 1.007626) (mid 0.545324 1.316528) (end 0 1.424998)
+    (fp_arc (start 1.007628 1.007626) (mid 0.545325 1.316528) (end 0 1.424998)
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 5dfe615e-98dc-47e2-8fb9-c97b5e8450a1))
     (pad "1" thru_hole rect locked (at -1.25 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp 1d47545f-3c7c-4c6f-9f1a-6040400add1f))
@@ -372,7 +372,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 375b2b6f-6b69-4d68-934d-6bc021f49237)
     )
-    (fp_text value "23" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "33" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp caeb8209-1991-40a7-8eac-1cc67a78ce51)
     )
@@ -541,7 +541,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 395a2484-b8a5-4827-9cb7-5febd05be9ed)
     )
-    (fp_text value "33" (at 0 1.2 -5 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "43" (at 0 1.2 -5 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp a257013f-50c0-4afb-b358-872d13632926)
     )
@@ -710,7 +710,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp b591f434-7a8a-4908-b899-2c5d537c14e3)
     )
-    (fp_text value "13" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "23" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 67c4299b-c8f0-4a91-9e86-920dedc2bdf9)
     )
@@ -879,7 +879,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 7ce46dc1-b4fa-43aa-ba52-e7126f689ac5)
     )
-    (fp_text value "1" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "11" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp c6120f28-8e3a-4ae3-b2c4-2d9161dad60c)
     )
@@ -1048,7 +1048,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 60f673d5-0153-4fda-a61f-b6cf14bfe469)
     )
-    (fp_text value "29" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "39" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 8ed289e7-9748-43dd-8756-966bf112406d)
     )
@@ -1217,7 +1217,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 4c7761c0-5177-4e8b-ab5d-174ed9241bac)
     )
-    (fp_text value "37" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "47" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 9da7a261-f4d3-4c8a-a83b-bd1466a37f31)
     )
@@ -1417,7 +1417,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp c62127e9-a9f2-48ab-8d1e-539b828f3f66)
     )
-    (fp_text value "19" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "29" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp f911c371-55b1-463b-ac38-635a5a82f314)
     )
@@ -1617,7 +1617,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 773ddea8-51fa-45ad-9647-7864f7ac60b0)
     )
-    (fp_text value "21" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "31" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 585d8673-fde3-4da6-93c9-99bd4b13838e)
     )
@@ -1786,7 +1786,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 29d76150-430d-4dde-b496-7241a977cfd8)
     )
-    (fp_text value "9" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "19" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 96fef453-512f-4d7e-9927-6561d4b4ddd5)
     )
@@ -1955,7 +1955,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp e58a567c-12d0-4b10-bb40-6dbc3a0ab1fb)
     )
-    (fp_text value "12" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "22" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 56f3e3f3-8cb2-4179-b014-af60025d96a2)
     )
@@ -2158,7 +2158,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp d69d0b9e-334c-47f2-bcd4-d3f4c5356db7)
     )
-    (fp_text value "17" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "27" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 25212c9f-ec98-4f07-b2ca-3c73aefd2139)
     )
@@ -2361,7 +2361,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp c263e703-782c-48f0-bfed-33cbcf5a2189)
     )
-    (fp_text value "4" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "14" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp a2699261-28b6-4850-9aa3-657093643289)
     )
@@ -2530,7 +2530,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp a775f574-efe8-45a9-ae6c-ce895032169a)
     )
-    (fp_text value "3" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "13" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 4f51d120-fcfd-46f5-af56-18f22d9221eb)
     )
@@ -2699,7 +2699,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 3eefc6b1-aa61-42be-96c0-4ddeea789f07)
     )
-    (fp_text value "28" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "38" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp cfe9511f-5ca7-4daa-8f58-75bffc410100)
     )
@@ -2868,7 +2868,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 80c1f774-1204-44de-a0f2-52c92d1d0060)
     )
-    (fp_text value "31" (at 0 1.2 25 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "41" (at 0 1.2 25 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 346a85a8-0b4d-46df-83aa-fbc78881f5e0)
     )
@@ -3057,7 +3057,7 @@
       (stroke (width 0.15) (type default)) (layer "B.SilkS") (tstamp 7ff93812-3c03-4e26-8e12-e8a2ae5f4d69))
     (fp_arc (start 0 1.424998) (mid -0.545324 1.316526) (end -1.007627 1.007625)
       (stroke (width 0.15) (type default)) (layer "B.SilkS") (tstamp dfa70c9d-f238-4db8-90c2-32261c822333))
-    (fp_arc (start 1.007628 1.007626) (mid 0.545324 1.316528) (end 0 1.424998)
+    (fp_arc (start 1.007628 1.007626) (mid 0.545325 1.316528) (end 0 1.424998)
       (stroke (width 0.15) (type default)) (layer "B.SilkS") (tstamp 2b2d4be1-e781-4e74-be8e-946b867c0f2c))
     (fp_arc (start -1.007628 -1.007628) (mid -0.545324 -1.316529) (end 0 -1.425)
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 0a7c44f2-0a0e-4077-9bb9-49870fcc6129))
@@ -3065,7 +3065,7 @@
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 11de55e4-dc76-4d58-9d35-cc36c0cc6af1))
     (fp_arc (start 0 1.424998) (mid -0.545324 1.316526) (end -1.007627 1.007625)
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 45cd9f2f-b97f-4f72-a8d1-b96559c983d2))
-    (fp_arc (start 1.007628 1.007626) (mid 0.545324 1.316528) (end 0 1.424998)
+    (fp_arc (start 1.007628 1.007626) (mid 0.545325 1.316528) (end 0 1.424998)
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 58259d33-74ee-402e-9141-66cce12d0e82))
     (pad "1" thru_hole rect locked (at -1.25 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp 3ec8b237-a469-424a-bab5-47e7e179a027))
@@ -3084,7 +3084,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 16db5780-2000-4d26-854d-b7c093f2cb1a)
     )
-    (fp_text value "39" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "49" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 8fcffee1-1a1e-4ea1-a4b6-9e76fcfde146)
     )
@@ -3253,7 +3253,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 10640230-604c-4c0c-8e11-1afe819f05d7)
     )
-    (fp_text value "15" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "25" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 8fd34528-a804-4bc3-aad7-74c55f898fa0)
     )
@@ -3422,7 +3422,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 2f50e5c1-658e-4a84-a161-dd776fff6449)
     )
-    (fp_text value "35" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "45" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 0d571e34-3c21-4b1e-bac9-3069fb0f69a2)
     )
@@ -3591,7 +3591,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp def8d823-63bb-41d6-b68d-e6baf6a434a8)
     )
-    (fp_text value "24" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "34" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 002dafa0-e198-4635-9a65-ca603be24bb3)
     )
@@ -3760,7 +3760,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 55ed4429-4845-4df9-bfaf-85db6255255e)
     )
-    (fp_text value "6" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "16" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 46426a21-fc53-437a-a756-9d013dbe9e63)
     )
@@ -4071,7 +4071,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 4df6375c-76fd-4c9f-aea5-b418dd9e7ac8)
     )
-    (fp_text value "25" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "35" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp e1acbeda-f3f3-413f-a8bc-2366934a8870)
     )
@@ -4240,7 +4240,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp b8942955-499c-48ca-8639-7b0abde47fee)
     )
-    (fp_text value "8" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "18" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 9bbd43bd-4ee9-431c-99fd-26d9c193d52d)
     )
@@ -4409,7 +4409,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp bd68936f-6d9a-4429-b860-c65e988c9b81)
     )
-    (fp_text value "2" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "12" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp a739a9d4-5206-4d9a-82b9-f6d25dd27ba7)
     )
@@ -4578,7 +4578,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp d85911e6-7a2a-4e59-a296-871b38a1514b)
     )
-    (fp_text value "27" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "37" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp f7d3dd2e-c499-43a6-bb73-ef19feaf77c6)
     )
@@ -4747,7 +4747,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 809e7b4e-d746-45a4-ab6a-9aba193f5a45)
     )
-    (fp_text value "32" (at 0 1.2 10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "42" (at 0 1.2 10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp d8174a35-1d04-4da3-8f95-67b87b436480)
     )
@@ -4916,7 +4916,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp d79fd6e5-5809-42fe-94af-df6bd3bfbc4a)
     )
-    (fp_text value "38" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "48" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 2abddef1-717b-4cd5-b79b-fd004ca63fe7)
     )
@@ -5085,7 +5085,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 65a5be2a-d10a-474a-8cfe-fc662876fb8f)
     )
-    (fp_text value "26" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "36" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp c423249a-d222-4e49-bb9f-8c96ed6a3d00)
     )
@@ -5296,7 +5296,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp e9c7c0fc-1077-4c9b-b533-598195cad308)
     )
-    (fp_text value "14" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "24" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp fc2bf66d-079b-42f2-bfc9-079a5e8c2848)
     )
@@ -5485,7 +5485,7 @@
       (stroke (width 0.15) (type default)) (layer "B.SilkS") (tstamp b7ef0094-8787-4eb9-b0fa-871b9421521b))
     (fp_arc (start 0 1.424998) (mid -0.545324 1.316526) (end -1.007627 1.007625)
       (stroke (width 0.15) (type default)) (layer "B.SilkS") (tstamp fe09e39e-7e6c-41ec-a684-c51ae78e4272))
-    (fp_arc (start 1.007628 1.007626) (mid 0.545324 1.316528) (end 0 1.424998)
+    (fp_arc (start 1.007628 1.007626) (mid 0.545325 1.316528) (end 0 1.424998)
       (stroke (width 0.15) (type default)) (layer "B.SilkS") (tstamp 2c0b78b3-6f67-4296-8280-84e48e7d3fba))
     (fp_arc (start -1.007628 -1.007628) (mid -0.545324 -1.316529) (end 0 -1.425)
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp ba39d01c-17e8-4db5-a2d3-d91f44508ddb))
@@ -5493,7 +5493,7 @@
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp fbb42d6a-c135-44e1-993b-c280d2b750cb))
     (fp_arc (start 0 1.424998) (mid -0.545324 1.316526) (end -1.007627 1.007625)
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 9714a730-d441-4289-a117-988408951884))
-    (fp_arc (start 1.007628 1.007626) (mid 0.545324 1.316528) (end 0 1.424998)
+    (fp_arc (start 1.007628 1.007626) (mid 0.545325 1.316528) (end 0 1.424998)
       (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp a44b5e6e-d196-49a4-b8e0-d78991611ce0))
     (pad "1" thru_hole rect locked (at -1.25 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp 37ebe12f-cdf6-47bd-afd7-e97686b9e974))
@@ -5512,7 +5512,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 359583a9-bc0c-42f2-90fa-9dbdc43b1e7d)
     )
-    (fp_text value "11" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "21" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 73b824db-cd97-47bb-97a9-12ff966a972b)
     )
@@ -5681,7 +5681,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 31366cb8-87d8-423e-b2ca-e4a1529a5c64)
     )
-    (fp_text value "7" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "17" (at 0 1.2 -10 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 71125973-71f7-4574-ae29-48f4ec4fea1e)
     )
@@ -5850,7 +5850,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 9a4120ad-2dba-4cde-98fc-9080760ac10f)
     )
-    (fp_text value "16" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "26" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 09ef41db-48b6-4405-8a53-a7746297b0c0)
     )
@@ -6103,7 +6103,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.1)))
       (tstamp ef1a5297-8541-437a-a4c6-2f7a812c0896)
     )
-    (fp_text value "JumperSplit" (at 0 1.524 unlocked) (layer "F.Fab") hide
+    (fp_text value "Jumper" (at 0 1.524 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp bf80a9df-5636-42aa-8898-32f21d6b8661)
     )
@@ -6166,7 +6166,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp eb824219-fbd5-472a-83db-118851d3a520)
     )
-    (fp_text value "36" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "46" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 869b1c88-df36-4720-a657-cc021eff8dbf)
     )
@@ -6335,7 +6335,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp fb476cdd-ddb9-49f2-b032-0c5fda2806c9)
     )
-    (fp_text value "22" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "32" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp c47bdb49-48cc-42b9-9393-886c947be0db)
     )
@@ -6504,7 +6504,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.1)))
       (tstamp 48e1237d-4e7f-4da3-b297-11f8bd7b5cc8)
     )
-    (fp_text value "JumperSplit" (at 0 1.524 unlocked) (layer "F.Fab") hide
+    (fp_text value "Jumper" (at 0 1.524 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp 0f90a971-8d87-4a6a-82a0-f874bb83b81c)
     )
@@ -6533,7 +6533,7 @@
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp eba634dc-fb63-4de0-9e47-d54fe032ef3e)
     )
-    (fp_text value "5" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
+    (fp_text value "15" (at 0 1.2 unlocked) (layer "Dwgs.User") hide
         (effects (font (size 1 1) (thickness 0.1)))
       (tstamp cab4f7a9-8962-4c23-b2b3-1a64ad052662)
     )
