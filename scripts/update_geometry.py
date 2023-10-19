@@ -10,7 +10,7 @@ board.graphicItems = [graphicItem for graphicItem in board.graphicItems if graph
 offset_x = 70
 offset_y = 50
 component_positions = {}
-component_rotations = {'SW41': 25, 'SW42': 10, 'SW43': -5}
+component_rotations = {'SW41': 20, 'SW42': 5, 'SW43': -10}
 for x in range(3):
     for y in range(4):
         component_rotations['SW{}{}'.format(y + 1, x + 7)] = -10
