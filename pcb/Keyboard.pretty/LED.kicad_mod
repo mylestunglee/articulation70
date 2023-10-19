@@ -35,4 +35,9 @@
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp d3931b8d-cdd9-427d-9c13-2b699f12be98))
   (pad "1" thru_hole rect (at -1.25 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 762b68da-8ae3-438b-9740-cd767dc6c06a))
   (pad "2" thru_hole circle (at 1.25 0) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 4de87b9f-0540-4bcd-b723-04617c6c9255))
+  (model ":KICAD7_3DMODEL_DIR:LED_THT.3dshapes/LED_D3.0mm.step"
+    (offset (xyz -1.25 0 -3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
