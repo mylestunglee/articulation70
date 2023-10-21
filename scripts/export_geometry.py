@@ -14,7 +14,7 @@ for i in range(5):
     code_lookup[200 + i] = 'R{}'.format(i + 1)
 
 for i in range(3):
-    code_lookup[300 + i] = 'LED{}'.format(i + 1)
+    code_lookup[300 + i] = 'D{}'.format(i + 1)
 
 for y in range(4):
     for x in range(9):
