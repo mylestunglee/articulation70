@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Plate")(type "KiCad")(uri "C:/Users/Myles/Desktop/keyboards/keyboard2/right_plate/Plate.pretty")(options "")(descr ""))
+)
