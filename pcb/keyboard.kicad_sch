@@ -3953,6 +3953,30 @@
     )
   )
 
+  (symbol (lib_id "Keyboard:Plate") (at 90.17 30.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b32ecdc0-ae1a-4a6b-ac12-a16d7f583988)
+    (property "Reference" "H2" (at 90.17 27.94 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "H1" (at 89.2175 30.1625 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Keyboard:LeftPlate" (at 89.2175 30.1625 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 89.2175 30.1625 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "keyboard"
+        (path "/7807834d-3d77-4d25-b9d8-d933072c7b84"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 74.93 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6debf8c-70d4-43cf-aebd-77ce14a53589)
