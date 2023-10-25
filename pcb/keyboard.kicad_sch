@@ -2838,32 +2838,6 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 106.68 153.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0585282d-9d19-4abc-be0e-1f4425dd22f9)
-    (property "Reference" "D3" (at 105.41 151.13 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LED3" (at 105.0925 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Keyboard:LED" (at 106.68 153.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 106.68 153.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 80fd0e76-5e8c-4920-9b2d-09a904b09e75))
-    (pin "2" (uuid b7443e86-566f-4f96-a5b2-4ac3a95cef14))
-    (instances
-      (project "keyboard"
-        (path "/7807834d-3d77-4d25-b9d8-d933072c7b84"
-          (reference "D3") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Keyboard:Switch") (at 128.27 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 090671aa-a074-430e-bcb5-afb3bfd4668f)
@@ -2914,32 +2888,6 @@
       (project "keyboard"
         (path "/7807834d-3d77-4d25-b9d8-d933072c7b84"
           (reference "#PWR013") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 106.68 143.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0ac0f162-77fd-4b7b-868d-5ce0de58513e)
-    (property "Reference" "D2" (at 105.41 140.97 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LED2" (at 105.0925 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Keyboard:LED" (at 106.68 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 106.68 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d97a1d17-3fb7-402a-95b7-4e94ef10d2e4))
-    (pin "2" (uuid 6954cf2a-31ea-482d-9dcf-f8215bc788e7))
-    (instances
-      (project "keyboard"
-        (path "/7807834d-3d77-4d25-b9d8-d933072c7b84"
-          (reference "D2") (unit 1)
         )
       )
     )
@@ -3109,6 +3057,32 @@
       (project "keyboard"
         (path "/7807834d-3d77-4d25-b9d8-d933072c7b84"
           (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 106.68 143.51 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2838b769-32c7-4612-aaee-fc0d284e8d1f)
+    (property "Reference" "D2" (at 107.95 146.05 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED2" (at 108.2675 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Keyboard:LED" (at 106.68 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 106.68 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0d4047d8-d79c-49a6-aec4-0f5ef670116b))
+    (pin "2" (uuid d59a0598-cea8-49f8-ab46-d8bdb786b552))
+    (instances
+      (project "keyboard"
+        (path "/7807834d-3d77-4d25-b9d8-d933072c7b84"
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3358,6 +3332,32 @@
       (project "keyboard"
         (path "/7807834d-3d77-4d25-b9d8-d933072c7b84"
           (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 106.68 153.67 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 57f48c2d-bb82-45c1-b268-8cc18d72dc80)
+    (property "Reference" "D3" (at 107.95 156.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED3" (at 108.2675 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Keyboard:LED" (at 106.68 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 106.68 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cbb6459e-1d8e-4cb5-ab24-376473a52d58))
+    (pin "2" (uuid 740fed93-3ba6-40fa-94a6-7d7917c5a402))
+    (instances
+      (project "keyboard"
+        (path "/7807834d-3d77-4d25-b9d8-d933072c7b84"
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -3928,6 +3928,32 @@
     )
   )
 
+  (symbol (lib_id "Device:LED") (at 106.68 133.35 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a1056e26-d62d-449b-beea-4a6edc8e68ef)
+    (property "Reference" "D1" (at 107.95 135.89 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED1" (at 108.2675 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Keyboard:LED" (at 106.68 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 106.68 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0344c4a4-9c66-4f92-822d-0d86e1b2eb54))
+    (pin "2" (uuid 23c8472b-3f11-4e5a-8b5a-8a43d80b8a82))
+    (instances
+      (project "keyboard"
+        (path "/7807834d-3d77-4d25-b9d8-d933072c7b84"
+          (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Keyboard:Switch") (at 181.61 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8326487-c486-440c-97a7-6e362d281eb0)
@@ -3983,32 +4009,6 @@
       (project "keyboard"
         (path "/7807834d-3d77-4d25-b9d8-d933072c7b84"
           (reference "SW23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 106.68 133.35 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid aac06fde-4552-4c72-8c80-db7eed16d446)
-    (property "Reference" "D1" (at 105.41 130.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LED1" (at 105.0925 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Keyboard:LED" (at 106.68 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 106.68 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 460fe9c5-9baa-460d-a86e-a00005e43267))
-    (pin "2" (uuid 0a3b0cc1-d550-4135-81a6-427c663732b1))
-    (instances
-      (project "keyboard"
-        (path "/7807834d-3d77-4d25-b9d8-d933072c7b84"
-          (reference "D1") (unit 1)
         )
       )
     )
