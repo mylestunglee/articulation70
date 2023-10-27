@@ -1,6 +1,6 @@
 (footprint "PTS526" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at 0 0 unlocked) (layer "Dwgs.User") hide
       (effects (font (size 0.8 0.8) (thickness 0.1)))
     (tstamp 101baa61-1508-4f95-8f0b-e355c45f060e)
