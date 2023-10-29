@@ -1,11 +1,11 @@
-(footprint "LED" (version 20221018) (generator pcbnew)
+(footprint "HLMP-1401" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -4.5 unlocked) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp c2ed2ca7-37ed-4176-abda-9f3ae559420a)
   )
-  (fp_text value "LED" (at 0 -3 unlocked) (layer "Dwgs.User") hide
+  (fp_text value "HLMP-1401" (at 0 -3 unlocked) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp b4e9cf02-4f46-4a4d-84cb-f073f58625f3)
   )
