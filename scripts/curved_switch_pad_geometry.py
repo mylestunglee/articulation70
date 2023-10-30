@@ -1,6 +1,6 @@
 import numpy as np
 
-clearance = 0.3
+clearance = 0.3001
 radius = 1.5 + clearance
 a = np.array([-3.1, -7.4])
 x1 = np.array([-4.875, -8.25])

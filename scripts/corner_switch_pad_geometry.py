@@ -5,7 +5,7 @@ x1 = np.array([-4.875, -7.25])
 x2 = np.array([-2.275, -7.25])
 x3 = np.array([-2.275, -4.65])
 c1 = np.array([-5, -3.75])
-clearance = 0.3
+clearance = 0.3001
 radius = 1.5 + clearance
 segments = 64
 
