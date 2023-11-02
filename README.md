@@ -5,7 +5,7 @@ The _articulation70_ keyboard is a successor to the [articulation80](https://git
 It features:
 - Reversible PCB to reduce manufacturing costs for hobby usage
 - Variable pinky stagger, supporting ±1 mm vertically offsetted soldering options
-- 3 × 6 main body, 3 thumb switches, 2 corner switches and 3 × 4 number pad
+- 3 × 6 main body, 3 thumb switches, 2 corner switches and 3 × 4 numpad
 - Kailh Choc V1 hot-swap support
 - A breakaway-able number pad
 - Serial or I2C connection between halves
@@ -24,7 +24,7 @@ If using serial, then solder J1, and J4. If using I2C, then solder J2, J3 and J4
 
 I would recommend substituting for cheaper or easier to source components when possible.
 
-| Component | Quantity | Manufacturer Code | Purchase Link | Remarks |
+| Component | Quantity | MPN | Purchase Link | Remarks |
 |:-|:-|:-|:-|:-|
 | PCB | 2 |
 | Left plate | 1
@@ -45,7 +45,7 @@ I would recommend substituting for cheaper or easier to source components when p
 
 *Adjust for number of keys desired.
 
-**Adjust for number of number pads.
+**Adjust for number of numpads.
 
 ## How to order PCBs and plates
 
@@ -68,3 +68,34 @@ For the plates, I used:
 
 ## How to adjust the layout
 
+This was tested on installation of FreeCad 0.20.2, Python 3.11.6 and Kicad 7.0.6.
+
+1. First, open `layout.FCStd` with FreeCad and open _Constants_ under the model tree view. You should see a spreadsheet of parameters.
+
+![FreeCad spreadsheet](images/freecad_spreadsheet1.png)
+![FreeCad spreadsheet](images/freecad_spreadsheet2.png)
+
+2. Change values as necessary. If the values change too much from their intended range, then the sketch (as shown in the next step) may become broken.
+3. Click on one of the sketches in the model tree view. Verify the layout shown is correct.
+
+![FreeCad spreadsheet](images/freecad_sketch.png)
+
+4. Export the layout to a file by coping the contents of `scripts/export_geometry.py` into FreeCad's Python console. The console is accessible by _View → Panel → Python console_. If you get a permission error, change `geometry.txt` to an absolute path within the repo. You should get a number, which reports the bytes written to `geometry.txt`.
+
+![FreeCad spreadsheet](images/freecad_export.png)
+
+5. Update the PCB by running the following scripts:
+
+```
+python scripts/update_geometry.py pcb/keyboard.kicad_pcb geometry.txt
+python scripts/update_geometry.py left_plate/plate.kicad_pcb geometry.txt
+python scripts/update_geometry.py right_plate/plate.kicad_pcb geometry.txt
+```
+
+For now, I will run the first script. Update the PCB files for the plates if desired.
+
+6. Clean-up residual graphic objects on the `Edge.Cuts` layer. The script deletes all previous edges and plots edges in the `Edge` and `EdgeNumpad` sketch, which includes construction lines that should not be included in the `Edge.Cuts` layer. The script also positions footprints according to the `Components` sketch. The script will output some text because some components' positions are not specified by the layout, such as the resistors.
+
+![FreeCad spreadsheet](images/kicad_import.png)
+
+7. Update traces and refill copper zones. Unfortunately this step takes the longest.

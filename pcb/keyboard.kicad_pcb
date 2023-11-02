@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "articulation70")
+    (date "2023-10-30")
+    (rev "v1")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)

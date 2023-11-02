@@ -6,21 +6,24 @@ def calc_midpoint(start_x, start_y, end_x, end_y, centre_x, centre_y):
 
 origin_code = 50
 code_lookup = {
-    60: 'J1',
-    70: 'U1'
+    60: ['J1'],
+    70: ['U1']
 }
 
 for i in range(5):
-    code_lookup[200 + i] = 'R{}'.format(i + 1)
+    code_lookup[200 + i] = ['R{}'.format(i + 1)]
 
 for i in range(3):
-    code_lookup[300 + i] = 'D{}'.format(i + 1)
+    code_lookup[300 + i] = ['D{}'.format(i + 1)]
 
 for y in range(4):
     for x in range(9):
         if x == 3 and y == 3:
             continue
-        code_lookup[100 + 10 * y + x] = 'SW{}{}'.format(y + 1, x + 1)
+        code_lookup[100 + 10 * y + x] = [
+            'SW{}{}'.format(y + 1, x + 1),
+            'HL{}{}'.format(y + 1, x + 1),
+            'HR{}{}'.format(y + 1, x + 1)]
 
 total_written = 0
 
@@ -38,8 +41,14 @@ with open('geometry.txt', 'w') as file:
             code = int(round(200 * geometry.Radius))
             if code == origin_code:
                 continue
-            reference = code_lookup[code]
-            total_written += file.write('{},{},{}\n'.format(reference, geometry.Center[0] - origin[0], origin[1] - geometry.Center[1]))
+            if not code in code_lookup:
+                print('Component code {} has no associated reference'.format(code))
+                continue
+            for reference in code_lookup[code]:
+                total_written += file.write('{},{},{}\n'.format(
+                    reference,
+                    geometry.Center[0] - origin[0],
+                    origin[1] - geometry.Center[1]))
 
     # export edges
     for sketch in App.ActiveDocument.findObjects():
@@ -60,3 +69,5 @@ with open('geometry.txt', 'w') as file:
                         origin[1] - geometry.EndPoint[1],
                         midpoint_x - origin[0],
                         origin[1] - midpoint_y))
+
+total_written
