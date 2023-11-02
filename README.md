@@ -5,12 +5,16 @@ The _articulation70_ keyboard is a successor to the [articulation80](https://git
 It features:
 - Reversible PCB to reduce manufacturing costs for hobby usage
 - Variable pinky stagger, supporting ±1 mm vertically offsetted soldering options
-- 3 × 6 main body, 3 thumb switches, 2 corner switches and 3 × 4 numpad
+- 3 × 6 main body, 3 thumb switches, 2 corner switches and 3 × 4 numpad layout
 - Kailh Choc V1 hot-swap support
 - A breakaway-able number pad
 - Serial or I2C connection between halves
 - Pro Micro-compatible controller support, however a micro-controller with more pins are required to operate LEDs 2 and 3. 
 - 3 LEDs
+
+## KiCad plugins
+
+
 
 ## Build Instructions
 
@@ -35,7 +39,7 @@ I would recommend substituting for cheaper or easier to source components when p
 | Reset button | 2 | PTS526 SM15 SMTR2 LFS | [Link](https://mou.sr/3tXtsOQ) | Different button operating force are possible
 | 150Ω Resistor  | 3 | RC1206FR-07150RL | [Link](https://mou.sr/3QEyQzo) | Optional, for LEDs
 | 4.7kΩ Resistor  | 2 | RC1206FR-104K7L | [Link](https://mou.sr/46XoOPE) | Optional, for I2C connection
-| SMD Diode | 70*    | 1N4148W-TP | [Link](https://mou.sr/3D01KSP) | Any SOD-123 recommended |
+| SMD Diode | 70*    | 1N4148W-TP | [Link](https://mou.sr/3D01KSP) | Any SOD-123 size |
 | Hot swap micro-controller sockets | 5 | 315-43-112-41-003000 | [Link](https://mou.sr/3QfEIO2) | Recommended
 | Hot swap pins | 52 | 3320-0-00-15-00-00-03-0 | [Link](https://www.mouser.co.uk/ProductDetail/Mill-Max/3320-0-00-15-00-00-03-0?qs=s8Nb1z4Wn%2FQ16WBIwCPrTw%3D%3D) | Recommended |
 | Rubber feet | 12** | SJ-5302 CLEAR | [Link](https://mou.sr/3QFq1oL)
@@ -68,21 +72,21 @@ For the plates, I used:
 
 ## How to adjust the layout
 
-This was tested on installation of FreeCad 0.20.2, Python 3.11.6 and Kicad 7.0.6.
+This was tested on installation of FreeCad 0.20.2, Python 3.11.6 and KiCad 7.0.6.
 
 1. First, open `layout.FCStd` with FreeCad and open _Constants_ under the model tree view. You should see a spreadsheet of parameters.
 
-![FreeCad spreadsheet](images/freecad_spreadsheet1.png)
-![FreeCad spreadsheet](images/freecad_spreadsheet2.png)
+![FreeCad spreadsheet 1](images/freecad_spreadsheet1.png)
+![FreeCad spreadsheet 2](images/freecad_spreadsheet2.png)
 
 2. Change values as necessary. If the values change too much from their intended range, then the sketch (as shown in the next step) may become broken.
 3. Click on one of the sketches in the model tree view. Verify the layout shown is correct.
 
-![FreeCad spreadsheet](images/freecad_sketch.png)
+![FreeCad sketch](images/freecad_sketch.png)
 
 4. Export the layout to a file by coping the contents of `scripts/export_geometry.py` into FreeCad's Python console. The console is accessible by _View → Panel → Python console_. If you get a permission error, change `geometry.txt` to an absolute path within the repo. You should get a number, which reports the bytes written to `geometry.txt`.
 
-![FreeCad spreadsheet](images/freecad_export.png)
+![FreeCad export](images/freecad_export.png)
 
 5. Update the PCB by running the following scripts:
 
@@ -96,6 +100,32 @@ For now, I will run the first script. Update the PCB files for the plates if des
 
 6. Clean-up residual graphic objects on the `Edge.Cuts` layer. The script deletes all previous edges and plots edges in the `Edge` and `EdgeNumpad` sketch, which includes construction lines that should not be included in the `Edge.Cuts` layer. The script also positions footprints according to the `Components` sketch. The script will output some text because some components' positions are not specified by the layout, such as the resistors.
 
-![FreeCad spreadsheet](images/kicad_import.png)
+![KiCad import](images/kicad_import.png)
 
-7. Update traces and refill copper zones. Unfortunately this step takes the longest.
+7. Update traces and refill copper zones. Unfortunately this step takes the longest. Make sure to thoroughly check PCB.
+
+The PCB is ready!
+
+![KiCad PCB](images/kicad_pcb.png)
+
+## Additional documentation
+
+```
+scripts/corner_switch_pad_geometry.py
+scripts/curved_switch_pad_geometry.py
+```
+
+These switches generate the geometry for curved pads featured in the switch footprints. The curved shape comes from the rectangular pad subtracted by the clearance of the centre switch drill hole. KiCad supports polygons in pads, but it is not very easy to use. These scripts makes the design of these footprints a bit easier.
+
+## More images
+
+![KiCad PCB](images/kicad_left.png)
+![KiCad PCB](images/kicad_right.png)
+
+## Credit
+
+Thanks to:
+- [KBD.news](https://kbd.news/) for inspiration
+- `sevmyer` for the [open-source KiCad teardrop plugin](https://github.com/sevmeyer/kicad-arc-teardrops) which was very helpful given many KiCad plugins were for Kicad 6 and not easily update-able
+- The QMK community on Discord for their helpful explanations
+- Various open source keyboards for guidance, but not limited to: [Breeze](https://www.afternoonlabs.com/breeze/), [Corne](https://github.com/foostan/crkbd) and [KLOTZ](https://github.com/GEIGEIGEIST/KLOTZ)
