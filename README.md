@@ -56,7 +56,7 @@ I would recommend substituting for cheaper or easier to source components when p
 | 4.7kΩ Resistor  | 2 | RC1206FR-104K7L | [Link](https://mou.sr/46XoOPE) | Optional, for I2C connection
 | SMD Diode | 70*    | 1N4148W-TP | [Link](https://mou.sr/3D01KSP) | Any SOD-123 size |
 | Hot swap micro-controller sockets | 5 | 315-43-112-41-003000 | [Link](https://mou.sr/3QfEIO2) | Recommended
-| Hot swap pins | 52 | 3320-0-00-15-00-00-03-0 | [Link](https://https://mou.sr/3tYd80f) | Recommended |
+| Hot swap pins | 52 | 3320-0-00-15-00-00-03-0 | [Link](https://mou.sr/3tYd80f) | Recommended |
 | Rubber feet | 12** | SJ-5302 CLEAR | [Link](https://mou.sr/3QFq1oL)
 | Hot swap key sockets | 70*      | CPG135001S30 | [Link](https://mechboards.co.uk/products/kailh-choc-hotswap-sockets)
 | Key Switch | 70* | CPG135001 | [Link](https://www.aliexpress.com/item/1005005446722280.html)
