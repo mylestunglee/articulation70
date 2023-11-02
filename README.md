@@ -14,7 +14,21 @@ It features:
 
 ## KiCad plugins
 
+This repo comes included with two plugins. To install these plugins, copy the directories in `plugins` into your _Plugins Directory_, which is found by _Tools → External Plugins → Open Plugins Directory_ in the PCB Editor.
 
+### Split intersecting traces
+
+When joining traces from rotated switches, it can be difficult to connect traces from two angles to form a aesthetic curve. This plugins splits two selected intersecting traces into four traces.
+
+An example of use:
+
+![KiCad plugin 1 animation](images/kicad_plugin1.gif)
+
+### Total trace length
+
+Why not?
+
+![KiCad plugin 1](images/kicad_plugin2.png)
 
 ## Build Instructions
 
@@ -37,11 +51,12 @@ I would recommend substituting for cheaper or easier to source components when p
 | Through-hole TRRS jack | 2 | PJ-320A | [Link](https://mechboards.co.uk/products/trrs-jacks?variant=40330077241549)
 | TRRS cable | 1 | | [Link](https://mou.sr/3QC5ykN) | Also called a 4-pin 3.5mm audio auxiliary cable |
 | Reset button | 2 | PTS526 SM15 SMTR2 LFS | [Link](https://mou.sr/3tXtsOQ) | Different button operating force are possible
+| LED | 3 | HLMP-1401 | [Link](https://mou.sr/45Zy9Vw) | Any T1 size
 | 150Ω Resistor  | 3 | RC1206FR-07150RL | [Link](https://mou.sr/3QEyQzo) | Optional, for LEDs
 | 4.7kΩ Resistor  | 2 | RC1206FR-104K7L | [Link](https://mou.sr/46XoOPE) | Optional, for I2C connection
 | SMD Diode | 70*    | 1N4148W-TP | [Link](https://mou.sr/3D01KSP) | Any SOD-123 size |
 | Hot swap micro-controller sockets | 5 | 315-43-112-41-003000 | [Link](https://mou.sr/3QfEIO2) | Recommended
-| Hot swap pins | 52 | 3320-0-00-15-00-00-03-0 | [Link](https://www.mouser.co.uk/ProductDetail/Mill-Max/3320-0-00-15-00-00-03-0?qs=s8Nb1z4Wn%2FQ16WBIwCPrTw%3D%3D) | Recommended |
+| Hot swap pins | 52 | 3320-0-00-15-00-00-03-0 | [Link](https://https://mou.sr/3tYd80f) | Recommended |
 | Rubber feet | 12** | SJ-5302 CLEAR | [Link](https://mou.sr/3QFq1oL)
 | Hot swap key sockets | 70*      | CPG135001S30 | [Link](https://mechboards.co.uk/products/kailh-choc-hotswap-sockets)
 | Key Switch | 70* | CPG135001 | [Link](https://www.aliexpress.com/item/1005005446722280.html)
@@ -119,8 +134,8 @@ These switches generate the geometry for curved pads featured in the switch foot
 
 ## More images
 
-![KiCad PCB](images/kicad_left.png)
-![KiCad PCB](images/kicad_right.png)
+![KiCad PCB left](images/kicad_left.png)
+![KiCad PCB right](images/kicad_right.png)
 
 ## Credit
 
