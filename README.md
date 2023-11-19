@@ -125,6 +125,15 @@ The PCB is ready!
 
 ![KiCad PCB](images/kicad_pcb.png)
 
+## Firmware
+
+I used [QMK](https://qmk.fm/) program the controllers. To use the same setup as me, copy the contents of `qmk` directory into your installation of `qmk_firmware/keyboards`. Flash the left and right controllers with the respective commands:
+```
+qmk flash -kb articulation70 -km default -bl dfu-split-left
+qmk flash -kb articulation70 -km default -bl dfu-split-right
+```
+These commands assume the usage of Elite-C's.
+
 ## Additional documentation
 
 ```
