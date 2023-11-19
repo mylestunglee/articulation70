@@ -163,7 +163,7 @@ There are a few improvements that can be made:
 ## Credit
 
 Thanks to:
-- [KBD.news](https://kbd.news/) and [KLOTZ](https://github.com/GEIGEIGEIST/KLOTZ) for inspiration.
+- [KBD.news](https://kbd.news/) for inspiration.
 - `sevmyer` for the [open-source KiCad teardrop plugin](https://github.com/sevmeyer/kicad-arc-teardrops) which was very helpful given many KiCad plugins were for Kicad 6 and not easily update-able.
 - The QMK community on Discord for their helpful explanations.
-- Various open source keyboards for guidance, but not limited to: [Breeze](https://www.afternoonlabs.com/breeze/), [Corne](https://github.com/foostan/crkbd) and [KLOTZ](https://github.com/GEIGEIGEIST/KLOTZ).
+- Various open source keyboards for guidance, but not limited to: [KLOTZ](https://github.com/GEIGEIGEIST/KLOTZ), [Corne](https://github.com/foostan/crkbd) and [Breeze](https://www.afternoonlabs.com/breeze/).
