@@ -1,11 +1,10 @@
 # articulation70
 
-The _articulation70_ keyboard is a successor to the [articulation80](https://github.com/mylestunglee/articulation80), with a better layout and LEDs.
+The _articulation70_ keyboard is a successor to the [articulation80](https://github.com/mylestunglee/articulation80), with LEDs and a more personalised layout.
 
 ![Photo](images/photos/image3.jpeg)
 
 It features:
-- Reversible PCB to reduce manufacturing costs for hobby usage.
 - Variable pinky stagger, supporting ±1 mm vertically offsetted soldering configurations.
 - 3 × 6 main body, 3 thumb switches, 2 corner switches and 3 × 4 numpad layout.
 - Kailh Choc V1 hot-swap support.
@@ -13,6 +12,7 @@ It features:
 - Serial or I2C connection between halves.
 - Pro Micro-compatible controller support, however a micro-controller. with more pins are required to operate LEDs 2 and 3.
 - 3 LEDs
+- Reversible PCB to reduce manufacturing costs for hobby usage.
 
 ## KiCad plugins
 
@@ -143,12 +143,14 @@ scripts/curved_switch_pad_geometry.py
 
 These switches generate the geometry for curved pads featured in the switch footprints. The curved shape comes from the rectangular pad subtracted by the clearance of the centre switch drill hole. KiCad supports polygons in pads, but it is not very easy to use. These scripts makes the design of these footprints a bit easier.
 
-## More images
+## Gallery
 
+![Photo both](images/photos/image1.jpeg)
 ![Photo left](images/photos/image5.jpeg)
 ![Photo right](images/photos/image4.jpeg)
-![KiCad PCB left](images/kicad_left.png)
-![KiCad PCB right](images/kicad_right.png)
+![PCB](images/photos/pcb.jpeg)
+
+More images can be found [here](https://github.com/mylestunglee/articulation70/tree/master/images).
 
 ## Future Considerations
 
@@ -164,6 +166,6 @@ There are a few improvements that can be made:
 
 Thanks to:
 - [KBD.news](https://kbd.news/) for inspiration.
-- `sevmyer` for the [open-source KiCad teardrop plugin](https://github.com/sevmeyer/kicad-arc-teardrops) which was very helpful given many KiCad plugins were for Kicad 6 and not easily update-able.
+- `sevmyer` for the [open-source KiCad teardrop plugin](https://github.com/sevmeyer/kicad-arc-teardrops) which was very helpful given many KiCad teardrop plugins were for Kicad 6.
 - The QMK community on Discord for their helpful explanations.
 - Various open source keyboards for guidance, but not limited to: [KLOTZ](https://github.com/GEIGEIGEIST/KLOTZ), [Corne](https://github.com/foostan/crkbd) and [Breeze](https://www.afternoonlabs.com/breeze/).
