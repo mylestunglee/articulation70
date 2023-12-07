@@ -23,7 +23,7 @@
     (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp cc10570d-d649-429a-9607-bcbd553bc5cc))
   (fp_rect (start 1 1.25) (end 2 0.25)
     (stroke (width 0.1) (type default)) (fill none) (layer "Dwgs.User") (tstamp e30c2cf5-9888-49e9-948c-f5a4973f348f))
-  (model "${KIPRJMOD}/right-keyboard.step"
+  (model "${KIPRJMOD}/right-plate.step"
     (offset (xyz -70 50 0.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
