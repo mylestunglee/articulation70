@@ -47,8 +47,9 @@ I would recommend substituting for cheaper or easier to source components when p
 | Component | Quantity | MPN | Purchase Link | Remarks |
 |:-|:-|:-|:-|:-|
 | PCB | 2 |
-| Left plate | 1
-| Right plate | 1
+| Left switch plate | 1
+| Right switch plate | 1
+| Micro-controller plate | 2
 | Micro-controller | 2 | Elite-C | [Link](https://mechboards.co.uk/products/elite-c-v4)
 | Through-hole TRRS jack | 2 | PJ-320A | [Link](https://mechboards.co.uk/products/trrs-jacks?variant=40330077241549)
 | TRRS cable | 1 | | [Link](https://mou.sr/3QC5ykN) | Also called a 4-pin 3.5mm audio auxiliary cable |
@@ -63,6 +64,7 @@ I would recommend substituting for cheaper or easier to source components when p
 | Hot swap key sockets | 70*      | CPG135001S30 | [Link](https://mechboards.co.uk/products/kailh-choc-hotswap-sockets)
 | Key Switch | 70* | CPG135001 | [Link](https://www.aliexpress.com/item/1005005446722280.html)
 | Key Cap | 70* | | | Ideally different key caps for thumbs |
+| Stickers | 1 | | [Link](https://www.aliexpress.com/item/1005005222836654.html) | Optional
 
 *Adjust for number of keys desired.
 
@@ -80,11 +82,18 @@ For the PCBs, I used:
 - Remove order number: Yes
 
 
-For the plates, I used:
+For the switch plates, I used:
 - Base material: FR-4
 - PCB thickness: 1.2 mm 
 - PCB colour: black 
 - Surface finish: HASL (with lead) because the unleaded option greatly increases cost and the plates do not have any pads.
+- Remove order number: Yes
+
+For the controller plates, I used:
+- Base material: FR-4
+- PCB thickness: 1.2 mm 
+- PCB colour: black 
+- Surface finish: HASL (with lead)
 - Remove order number: Yes
 
 ## How to adjust the layout
@@ -160,7 +169,9 @@ There are a few improvements that can be made:
 - Adding solder mask expansion on pads and pins.
 - Re-route `ROW4` trace.
 - Support LED placement in top-right.
-- Strive to continually improve layout.
+- Improve LED brightness as they are too dim.
+- Support both micro-controllers mounted face down.
+- Strive to continually improve layout. The key columns are perpendicular to the fingers. This does not effectively utilise the flexibility of the hand.
 
 ## Credit
 
