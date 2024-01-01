@@ -2,7 +2,7 @@
 
 The _articulation70_ keyboard is a successor to the [articulation80](https://github.com/mylestunglee/articulation80), with LEDs and a more personalised layout.
 
-![Photo](images/photos/image3.jpeg)
+![Photo](images/photos_16x9/stacked.jpg)
 
 It features:
 - Variable pinky stagger, supporting ±1 mm vertically offsetted soldering configurations.
@@ -154,10 +154,9 @@ These switches generate the geometry for curved pads featured in the switch foot
 
 ## Gallery
 
-![Photo both](images/photos/image1.jpeg)
-![Photo left](images/photos/image5.jpeg)
-![Photo right](images/photos/image4.jpeg)
-![PCB](images/photos/pcb.jpeg)
+![Photo both](images/photos_16x9/side.jpg)
+![Photo left](images/photos_16x9/left.jpg)
+![Photo right](images/photos_16x9/right.jpg)
 
 More images can be found [here](https://github.com/mylestunglee/articulation70/tree/master/images).
 
@@ -165,7 +164,7 @@ More images can be found [here](https://github.com/mylestunglee/articulation70/t
 
 There are a few improvements that can be made:
 
-- Adding a pattern to improve visuals on the plates.
+- Adding a pattern to improve aesthetics on the plates.
 - Adding solder mask expansion on pads and pins.
 - Re-route `ROW4` trace.
 - Support LED placement in top-right.
