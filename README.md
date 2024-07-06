@@ -76,23 +76,23 @@ I ordered from JLCPCB, however there are many other manufacturers. Take a look a
 
 For the PCBs, I used:
 - Base material: FR-4
-- PCB thickness: 1.6 mm 
-- PCB colour: black 
+- PCB thickness: 1.6 mm
+- PCB colour: black
 - Surface finish: LeadFree HASL
 - Remove order number: Yes
 
 
 For the switch plates, I used:
 - Base material: FR-4
-- PCB thickness: 1.2 mm 
-- PCB colour: black 
+- PCB thickness: 1.2 mm
+- PCB colour: black
 - Surface finish: HASL (with lead) because the unleaded option greatly increases cost and the plates do not have any pads.
 - Remove order number: Yes
 
 For the controller plates, I used:
 - Base material: FR-4
-- PCB thickness: 1.2 mm 
-- PCB colour: black 
+- PCB thickness: 1.2 mm
+- PCB colour: black
 - Surface finish: HASL (with lead)
 - Remove order number: Yes
 
@@ -142,6 +142,12 @@ qmk flash -kb articulation70 -km default -bl dfu-split-left
 qmk flash -kb articulation70 -km default -bl dfu-split-right
 ```
 These commands assume the usage of Elite-C's.
+
+If you want to upgrade the toolchain, you can do so at your own risk:
+```
+pacboy update avr-gcc:x
+```
+
 
 ## Additional documentation
 
